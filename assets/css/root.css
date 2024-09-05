@@ -1,0 +1,21 @@
+:root {
+
+    --fs-base: 16px;
+}
+
+.fs-base{
+    font-size: var(--fs-base);
+}
+
+
+@media (min-width:768px) {
+    :root{
+        --fs-base: 18px;
+    }
+}
+
+@media (min-width:1024px) {
+    :root{
+        --fs-base: 26px;
+    }
+}
